@@ -1,9 +1,9 @@
 #hero-banner {
   display: flex;
-  padding: 72px 20px;
+  padding: 90px 20px;
   justify-content: space-between;
   align-items: center;
-  gap: 32px;
+  gap: 80px;
 }
 
 .hero-image {
@@ -13,7 +13,7 @@
 .hero-image img {
   width: 100%;
   object-fit: cover;
-  border-radius: 16px;
+  border-radius: 130px 0px 130px 0px;
   height: auto;
 }
 
@@ -21,12 +21,16 @@
   max-width: 500px;
 }
 
+
 .hero-content h1 {
   font-size: 48px;
+  color: white;
+
 }
 
 .hero-content p {
   margin: 14px 0;
+  color: white;
 }
 
 .hero-content .btn-container {
